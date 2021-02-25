@@ -1,0 +1,28 @@
+{% extends 'web\base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+      <h1>{{ category.name }}</h1>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        {% for product in products %}
+            {% if product.category == category %}
+            <a href="{{ product.slug }}">
+                <div style="text-align: center;">
+                    <img src="{{ product.image.url }}" width="180" height="195" style="padding-top: 15px;">
+                    <p style="padding-top: 15px;">{{ product.name }}</p>
+                </div>
+            </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

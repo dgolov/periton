@@ -4,6 +4,30 @@
 
 {% block content %}
 
-<p>Страница в разработке</p>
+<section class="py-5">
+    <div class="container">
+      <h1>КАТАЛОГ МАСЕЛ</h1>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        {% for category in categories %}
+            <a href="catalog/{{ category.slug }}" style="color: #343a40; text-decoration: none;">
+                <h2 align="center">{{ category.name }}</h2>
+            </a>
+            {% for product in products %}
+                {% if product.category == category %}
+                <a href="catalog/{{ category.slug }}/{{ product.slug }}">
+                    <div style="text-align: center;">
+                        <img src="{{ product.image.url }}" width="180" height="195" style="padding-top: 15px;">
+                        <p style="padding-top: 15px;">{{ product.name }}</p>
+                    </div>
+                </a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>
 
 {% endblock %}

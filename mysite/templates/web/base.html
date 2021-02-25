@@ -1,38 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        {% load static %}
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ООО "Перитон"</title>
-        <meta name="description" content="Сайт.">
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <body>
-        <nav class="header">
-            <ul>
-                <li><a href="{% url 'home' %}">ООО "Перитон"</a></li>
-                <li><a href="{% url 'catalog' %}">Каталог масел</a></li>
-                <li><a href="{% url 'documents' %}">Документы</a></li>
-                <li><a href="{% url 'contacts' %}">Контакты | Карточка организации</a></li>
-            </ul>
-        </nav>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
 
-        <div class="content">
-           {% block content %} {% endblock %}
+      <title>{% block title %} {{ title }} {% endblock %}</title>
+
+      {% load static %}
+
+      <!-- Bootstrap core CSS -->
+      <link href="{% static 'vendor/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="{% static 'css/full-width-pics.css' %}" rel="stylesheet">
+    </head>
+
+    <body>
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'home' %}">ООО Перитон</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                  aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="{% url 'catalog' %}">Каталог масел
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'documents' %}">Документы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'contacts' %}">Контакты | Карточка организации</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <!-- Header - set the background image for the header in the line below -->
+      <header class="py-5 bg-image-full" style="background-image: url({% static 'img/shutterstock_1340501801.jpg' %});">
+          <div style="height: 150px;"></div>
+<!--        <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt="">-->
+      </header>
+
+      <!-- Content section -->
+      {% block content %} {% endblock %}
+
+
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">
+            <span class="copyright">&copy; GDeveloping 2020. All Rights Reserved</span>
+          </p>
+        </div>
+        <!-- /.container -->
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+      <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
     </body>
-    <footer class="footer">
-            <span class="copyright">&copy; GDeveloping 2020. All Rights Reserved</span>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
 </html>
