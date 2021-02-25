@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98c05c91-11d2-40a8-946e-4a5e4c1be8d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/templates/web/category_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/web/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/web/static/css/full-width-pics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/lubrication-AdobeStock_228089326.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/shutterstock_1340501801.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pythonw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/documents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/elements/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="98c05c91-11d2-40a8-946e-4a5e4c1be8d7" name="Default" comment="initial 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +18,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="periton" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608365524606</updated>
-      <workItem from="1614260154756" duration="390000" />
+      <workItem from="1614260154756" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1608888055577</created>
@@ -116,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608889492272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial">
+      <created>1614260644644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614260644644</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial">
+      <created>1614260681439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614260681439</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial 2">
+      <created>1614260738394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614260738394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -131,6 +134,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -142,7 +156,22 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="initial 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial 2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="647" y="310" width="453" height="275" key="Github.ShareDialog" timestamp="1614260850252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" width="453" height="275" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1614260850252" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1614260811705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614260811705" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614261099558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1614261099558" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
