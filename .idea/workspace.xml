@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98c05c91-11d2-40a8-946e-4a5e4c1be8d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/templates/web/category_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/css/full-width-pics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/lubrication-AdobeStock_228089326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/shutterstock_1340501801.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pythonw.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/documents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/elements/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/static/img/slide/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="periton" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oyY9Gh31YYdl3bdI7UvEntMejn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\periton\mysite\web" />
+      <recent name="C:\Users\User\PycharmProjects\periton\mysite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\periton" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="periton" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98c05c91-11d2-40a8-946e-4a5e4c1be8d7" name="Default" comment="" />
+      <created>1608365524606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608365524606</updated>
+      <workItem from="1614260154756" duration="390000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1608888055577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608888055577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial">
+      <created>1608889492272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608889492272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="5">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/mysite/mysite/urls.py</url>
+          <line>15</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
