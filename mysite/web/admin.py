@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib import admin
-from .models import Categories, Products
+from .models import Categories, Products, Applications
 from ckeditor.widgets import CKEditorWidget
 
 
@@ -24,3 +24,8 @@ class ProductsAdmin(admin.ModelAdmin):
     form = ProductsAdminForm
     list_display = ['name', 'category']
     prepopulated_fields = {'slug': ('name',)}
+
+
+@admin.register(Applications)
+class ApplicationsAdmin(admin.ModelAdmin):
+    list_display = ['product', 'costumer_name', 'phone', 'created_at']

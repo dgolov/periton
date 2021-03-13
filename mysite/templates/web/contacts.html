@@ -1,141 +1,136 @@
 {% extends 'web/base.html' %}
-
 {% load static %}
-
 {% block content %}
-
 <section class="py-3">
     <div class="container">
-                    <h1 class="entry-title">Контакты | Карточка организации</h1>
+        <h1 class="entry-title">Контакты | Карточка организации</h1>
     </div>
 </section>
 <section class="py-3">
     <div class="container">
         <main>
             <article>
-                <h4 style="text-align: center;"><strong>Карточка предприятия</strong></h4>
-
-                <table style="height: 1060px;" align="center">
+                <h4 style="text-align: center; margin-bottom: 25px;"><strong>Карточка предприятия</strong></h4>
+                <table class="table" align="center">
                     <tbody>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td>
-                                <h4>Полное&nbsp; наименование</h4>
-                            </td>
-                            <td width="347">
-                                <h4 style="text-align: left;">Общество с ограниченной ответственностью «ПЕРИТОН»</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Сокращенное наименование</h4>
-                            </td>
-                            <td width="347">
-                                <h4 style="text-align: left;">ООО «ПЕРИТОН»</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Юридический адрес</h4>
-                            </td>
-                            <td width="347">
-                                <h4 style="text-align: left;">
-                                    606026,Нижегородская область, г. Дзержинск, ул. Будённого д.1А&nbsp; кв.17
-                                </h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Почтовый (фактический) адрес</h4>
-                            </td>
-                            <td width="347">
-                                <h4>606026,Нижегородская область, г. Дзержинск, ул. Будённого д.1А&nbsp; кв.17</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Расчётный счёт</h4>
-                            </td>
-                            <td width="347">
-                                <h4>40702810108010026640</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Корреспондентский счёт</h4>
-                            </td>
-                            <td width="347">
-                                <h4>30101810400000000705</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Наименование банка</h4>
-                            </td>
-                            <td width="347">
-                                <h4>ПАО&nbsp; «НБД-Банк» г. Нижний Новгород</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>БИК</h4>
-                            </td>
-                            <td width="347">
-                                <h4>042202705</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>ИНН</h4>
-                            </td>
-                            <td width="347">
-                                <h4>5249154625</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>КПП</h4>
-                            </td>
-                            <td width="347">
-                                <h4>524901001</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>ОГРН</h4>
-                            </td>
-                            <td width="347">
-                                <h4>1175275009458</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Электронная почта</h4>
-                            </td>
-                            <td width="347">
-                                <h4>mail@oooperiton.ru</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>телефон</h4>
-                            </td>
-                            <td width="347">
-                                <h4>+7(953)-553-99-22</h4>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h4>Генеральный директор</h4>
-                            </td>
-                            <td width="347">
-                                <h4>Савичев Алексей Валерьевич</h4>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <h4>Полное&nbsp; наименование</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>Общество с ограниченной ответственностью «ПЕРИТОН»</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Сокращенное наименование</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>ООО «ПЕРИТОН»</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Юридический адрес</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>
+                                606026,Нижегородская область, г. Дзержинск, ул. Будённого д.1А&nbsp; кв.17
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Почтовый (фактический) адрес</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>606026,Нижегородская область, г. Дзержинск, ул. Будённого д.1А&nbsp; кв.17</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Расчётный счёт</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>40702810108010026640</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Корреспондентский счёт</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>30101810400000000705</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Наименование банка</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>ПАО&nbsp; «НБД-Банк» г. Нижний Новгород</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>БИК</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>042202705</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>ИНН</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>5249154625</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>КПП</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>524901001</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>ОГРН</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>1175275009458</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Электронная почта</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>mail@oooperiton.ru</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>телефон</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>+7(953)-553-99-22</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Генеральный директор</h4>
+                        </td>
+                        <td style="text-align: center;">
+                            <p>Савичев Алексей Валерьевич</p>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
             </article>
         </main>
     </div>
 </section>
-
 {% endblock %}

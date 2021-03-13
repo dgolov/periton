@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="649bc542-9717-494e-89f8-a8f45e8c18f6" name="Default Changelist" comment="add requirements">
-      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/WhatsApp Image 2021-02-16 at 08.57.33.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/WhatsApp Image 2021-02-16 at 08.57.36.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/periton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/periton.iml" afterDir="false" />
+    <list default="true" id="649bc542-9717-494e-89f8-a8f45e8c18f6" name="Default Changelist" comment="Добавление карусели на главной странице&#10;Изменение модели продукции (добалвен ск едитор в котором таблица будет заменять все поля)">
+      <change afterPath="$PROJECT_DIR$/mysite/media/images/WhatsApp_Image_2021-02-16_at_08.57.31.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/media/images/WhatsApp_Image_2021-02-16_at_08.57.31_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/media/images/WhatsApp_Image_2021-02-16_at_08.57.32.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/media/images/WhatsApp_Image_2021-02-16_at_08.57.44.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/migrations/0009_applications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/web/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/category_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/category_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/web/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oyNj96ID1uPwynKmcM1gugXe43" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/web/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +81,7 @@
       <workItem from="1614445538578" duration="630000" />
       <workItem from="1614511653325" duration="627000" />
       <workItem from="1614667097910" duration="3316000" />
+      <workItem from="1615647710821" duration="7112000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1614256011602</created>
@@ -87,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614262544883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавление карусели на главной странице&#10;Изменение модели продукции (добалвен ск едитор в котором таблица будет заменять все поля)">
+      <created>1615647884128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615647884129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,9 +130,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="enviroments" />
     <MESSAGE value="add requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements" />
+    <MESSAGE value="Добавление карусели на главной странице&#10;Изменение модели продукции (добалвен ск едитор в котором таблица будет заменять все поля)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление карусели на главной странице&#10;Изменение модели продукции (добалвен ск едитор в котором таблица будет заменять все поля)" />
   </component>
 </project>

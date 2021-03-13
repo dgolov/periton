@@ -28,3 +28,15 @@ class Products(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Applications(models.Model):
+    product = models.ForeignKey(Products, on_delete=models.CASCADE, verbose_name='Продукция')
+    costumer_name = models.CharField(max_length=50, verbose_name='ФИО Клиента')
+    phone = models.CharField(max_length=12, verbose_name='Телефон')
+    message = models.TextField(verbose_name='Сообщение')
+    created_at = models.DateTimeField(auto_created=True, auto_now=True, verbose_name='Дата и время заявки')
+
+    class Meta:
+        verbose_name = 'Заявка'
+        verbose_name_plural = 'Заявки'

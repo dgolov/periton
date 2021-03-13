@@ -12,16 +12,18 @@
 
 <section class="py-5">
     <div class="container">
-        {% for product in products %}
-            {% if product.category == category %}
-            <a href="{{ product.slug }}">
-                <div style="text-align: center;">
-                    <img src="{{ product.image.url }}" width="180" height="195" style="padding-top: 15px;">
+        <div class="row cat-detail">
+            {% for product in products %}
+                <div class="col-md-4">
+                    {% if product.category == category %}
+                    <a href="{{ product.slug }}">
+                    <img src="{{ product.image.url }}">
                     <p style="padding-top: 15px;">{{ product.name }}</p>
+                    </a>
+                    {% endif %}
                 </div>
-            </a>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 

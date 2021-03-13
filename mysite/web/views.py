@@ -1,8 +1,11 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.contrib import messages
 from django.views import View
 from django.views.generic import DetailView
-from .models import Categories, Products
+from .models import Categories, Products, Applications
 from .mixins import CategoryMixin, CategoryDetailMixin
+from .forms import ApplicationForm
 
 
 class BaseView(View):
@@ -84,4 +87,28 @@ class ProductsDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         context['ct_model'] = Products._meta.model_name
         context['category'] = Categories.objects.order_by('name')
+        context['form'] = ApplicationForm()
         return context
+
+    def post(self, request, *args, **kwargs):
+        form = ApplicationForm(request.POST)
+        product = Products.objects.get(slug=kwargs.get('slug'))
+        if form.is_valid():
+
+            Applications.objects.create(**form.cleaned_data, product_id=product.pk)
+            # send_mail(
+            #     'Сообщение обратной связи "МыВместе"',
+            #     FEEDBACK_MESSAGE_TEMPLATE.format(
+            #         question_category,
+            #         feed_back.user.get_full_name(),
+            #         feed_back.user.email,
+            #         feed_back.user.profile.phone,
+            #         feed_back.theme,
+            #         feed_back.message
+            #     ),
+            #     'mail@myvmeste.info', ['dgolov@icloud.com'], fail_silently=False
+            # )
+            messages.add_message(request, messages.INFO, 'Ваше сообщение успешно отправлено')
+        else:
+            messages.add_message(request, messages.ERROR, 'Ваше сообщение не было отправлено')
+        return HttpResponseRedirect('/')

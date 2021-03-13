@@ -1,0 +1,43 @@
+h1{
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.cat-detail img{
+    padding-top: 15px;
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.cat-detail p{
+    padding-top: 15px;
+}
+
+.product-card img {
+    float: left;
+    padding-right: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card .characteristic {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 35px 0 20px 0;
+}
+
+.price {
+    margin: 35px 0 20px 0;
+}
+
+.close-message {
+    background: none;
+    text-align: right;
+    border: none;
+}
