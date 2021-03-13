@@ -1,33 +1,26 @@
 {% extends 'web/base.html' %}
-
 {% load static %}
-
 {% block content %}
-
 <section class="py-5">
     <div class="container">
-      <h1>КАТАЛОГ МАСЕЛ</h1>
+        <h1>КАТАЛОГ МАСЕЛ</h1>
     </div>
 </section>
-
 <section class="py-5">
     <div class="container">
-        {% for category in categories %}
-            <a href="catalog/{{ category.slug }}" style="color: #343a40; text-decoration: none;">
-                <h2 align="center">{{ category.name }}</h2>
-            </a>
-            {% for product in products %}
-                {% if product.category == category %}
-                <a href="catalog/{{ category.slug }}/{{ product.slug }}">
-                    <div style="text-align: center;">
-                        <img src="{{ product.image.url }}" width="180" height="195" style="padding-top: 15px;">
-                        <p style="padding-top: 15px;">{{ product.name }}</p>
-                    </div>
-                </a>
-                {% endif %}
+        <div class="row">
+            {% for category in categories %}
+            <div class="col-md-4">
+                <img src="{{ category.image.url }}" class="card-img-top" alt="{{ category.name }}"
+                style="border-radius: 10px">
+                <div class="card-body">
+                    <a href="catalog/{{ category.slug }}" style="color: #343a40; text-decoration: none;">
+                        <h5 class="card-title">{{ category.name }}</h5>
+                    </a>
+                </div>
+            </div>
             {% endfor %}
-        {% endfor %}
+        </div>
     </div>
 </section>
-
 {% endblock %}

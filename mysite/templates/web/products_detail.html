@@ -13,78 +13,7 @@
 <section class="py-5">
     <div class="container">
         <img src="{{ product.image.url }}" width="270" height="270" style="float: left; padding-right: 15px;">
-        <table>
-                    <tbody>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <h5 align="center">Наименование показателя</h5>
-                            </td>
-                            <td width="347">
-                                <h5 align="center">Нормативное значение</h5>
-                            </td>
-                            <td width="347">
-                                <h5 align="center">Фактическое значение</h5>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <p align="left">Вязкость кинематическая при 40ºС</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.viscosity }}</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.viscosity_actually }}</p>
-                            </td>
-                        </tr>
-                         <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <p align="left">Индекс вязкости</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.index_viscosity }}</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.index_viscosity_actually }}</p>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            {% if product.density %}
-                            <td width="347">
-                                <p align="left">Плотность при 20ºС, не более</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.density }}</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.density_actually }}</p>
-                            </td>
-                            {% endif %}
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <p align="left">Температура вспышки в открытом тигле, ºС</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.temp_flash }}</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.temp_flash_actually }}</p>
-                            </td>
-                        </tr>
-                        <tr style="border-bottom: solid; border-width: 1px; border-bottom-color: darkgrey">
-                            <td width="347">
-                                <p align="left">Температура застывания, º С, не выше</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.temp_solidification }}</p>
-                            </td>
-                            <td width="347">
-                                <p align="center">{{ product.temp_solidification_actually }}</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <p>Характеристики</p>
         <h4 style="padding-top: 55px;">Описание:</h4>
         <p>{{ product.description }}"</p>
     </div>

@@ -1,6 +1,15 @@
+from django import forms
 from django.contrib import admin
 from .models import Categories, Products
+from ckeditor.widgets import CKEditorWidget
 
+
+class ProductsAdminForm(forms.ModelForm):
+    characteristics = forms.CharField(label='Характеристики', widget=CKEditorWidget())
+
+    class Meta:
+        model = Products
+        fields = '__all__'
 
 
 @admin.register(Categories)
@@ -12,5 +21,6 @@ class CategoriesAdmin(admin.ModelAdmin):
 
 @admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
+    form = ProductsAdminForm
     list_display = ['name', 'category']
     prepopulated_fields = {'slug': ('name',)}

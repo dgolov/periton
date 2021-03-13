@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="649bc542-9717-494e-89f8-a8f45e8c18f6" name="Default Changelist" comment="enviroments">
+    <list default="true" id="649bc542-9717-494e-89f8-a8f45e8c18f6" name="Default Changelist" comment="add requirements">
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/WhatsApp Image 2021-02-16 at 08.57.33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/web/static/img/WhatsApp Image 2021-02-16 at 08.57.36.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/periton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/periton.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enviroments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/web/products_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/web/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +34,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/web/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/web/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -43,7 +59,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614255004444</updated>
-      <workItem from="1614255005796" duration="2059000" />
+      <workItem from="1614255005796" duration="3934000" />
+      <workItem from="1614424072138" duration="2086000" />
+      <workItem from="1614440485554" duration="3868000" />
+      <workItem from="1614445538578" duration="630000" />
+      <workItem from="1614511653325" duration="627000" />
+      <workItem from="1614667097910" duration="3316000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1614256011602</created>
@@ -59,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614256281590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add requirements">
+      <created>1614262544883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614262544883</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +103,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="enviroments" />
-    <option name="LAST_COMMIT_MESSAGE" value="enviroments" />
+    <MESSAGE value="add requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements" />
   </component>
 </project>
