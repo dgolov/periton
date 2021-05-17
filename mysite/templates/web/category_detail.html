@@ -14,14 +14,14 @@
     <div class="container">
         <div class="row cat-detail">
             {% for product in products %}
+            {% if product.category == category %}
                 <div class="col-md-4">
-                    {% if product.category == category %}
-                    <a href="{{ product.slug }}">
+                    <a href="{{ product.slug }}" style="color: #1c00cf;">
                     <img src="{{ product.image.url }}">
-                    <p style="padding-top: 15px;">{{ product.name }}</p>
+                    <p style="padding: 15px 150px 0 0;">{{ product.name }}</p>
                     </a>
-                    {% endif %}
                 </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>

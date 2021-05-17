@@ -16,6 +16,7 @@ SECRET_KEY = '=w4cq@@a@$abp539s3tah5#@huerit&=9azbg!vt5)*&+oe)zy'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['periton-oil.ru', 'www.periton-oil.ru']
 
 
 # Application definition
@@ -72,8 +73,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'u1322360_default',
+        # 'USER': 'u1322360_default',
+        # 'PASSWORD': '_2_iYvsv',
+        # 'HOST': 'localhost',
     }
 }
+
 
 
 # Password validation
@@ -120,6 +127,14 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+DEFAULT_FROM_EMAIL = 'mail@periton-oil.ru'
+EMAIL_HOST = 'mail.periton-oil.ru'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'mail@periton-oil.ru'
+EMAIL_HOST_PASSWORD = 'Periton230447'
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 

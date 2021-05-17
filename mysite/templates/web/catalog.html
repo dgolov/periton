@@ -3,18 +3,15 @@
 {% block content %}
 <section class="py-5">
     <div class="container">
-        <h1>КАТАЛОГ МАСЕЛ</h1>
-    </div>
-</section>
-<section class="py-5">
-    <div class="container">
-        <div class="row">
+        <h1 style="margin-bottom: 40px;">Каталог продукции</h1>
+        <div class="row categories">
             {% for category in categories %}
             <div class="col-md-4">
-                <img src="{{ category.image.url }}" class="card-img-top" alt="{{ category.name }}"
-                style="border-radius: 10px">
+                 <a href="catalog/{{ category.slug }}">
+                    <img src="{{ category.image.url }}" class="card-img-top" alt="{{ category.name }}">
+                 </a>
                 <div class="card-body">
-                    <a href="catalog/{{ category.slug }}" style="color: #343a40; text-decoration: none;">
+                    <a href="catalog/{{ category.slug }}">
                         <h5 class="card-title">{{ category.name }}</h5>
                     </a>
                 </div>

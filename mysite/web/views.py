@@ -1,3 +1,4 @@
+from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib import messages
@@ -77,11 +78,9 @@ class ProductsDetailView(DetailView):
     template_name = 'web/products_detail.html'
     slug_url_kwarg = 'slug'
 
-
     def dispatch(self, request, *args, **kwargs):
         self.queryset = Products._base_manager.all()
         return super().dispatch(request, *args, **kwargs)
-
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -94,20 +93,12 @@ class ProductsDetailView(DetailView):
         form = ApplicationForm(request.POST)
         product = Products.objects.get(slug=kwargs.get('slug'))
         if form.is_valid():
-
-            Applications.objects.create(**form.cleaned_data, product_id=product.pk)
-            # send_mail(
-            #     'Сообщение обратной связи "МыВместе"',
-            #     FEEDBACK_MESSAGE_TEMPLATE.format(
-            #         question_category,
-            #         feed_back.user.get_full_name(),
-            #         feed_back.user.email,
-            #         feed_back.user.profile.phone,
-            #         feed_back.theme,
-            #         feed_back.message
-            #     ),
-            #     'mail@myvmeste.info', ['dgolov@icloud.com'], fail_silently=False
-            # )
+            app = Applications.objects.create(**form.cleaned_data, product_id=product.pk)
+            send_mail(
+                'Сообщение обратной связи "Periton-oil"',
+                f"{app.costumer_name}\nНомер телефона: {app.phone}\nСообщение из раздела: {app.product}\n{app.message}",
+                'mail@periton-oil.ru', ['dgolov@icloud.com'], fail_silently=False
+            )
             messages.add_message(request, messages.INFO, 'Ваше сообщение успешно отправлено')
         else:
             messages.add_message(request, messages.ERROR, 'Ваше сообщение не было отправлено')

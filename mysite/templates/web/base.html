@@ -42,9 +42,28 @@
 {% block content %} {% endblock %}
 <footer class="py-5 bg-dark">
     <div class="container">
-        <p class="m-0 text-center text-white">
-            <span class="copyright">ООО Перитон</span>
-        </p>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="m-0 text-center text-white"><span class="copyright">ООО Перитон</span></p>
+                <p class="m-0 text-center text-white" style="font-size: 12px;">с заботой о Вашем автомобиле!</p>
+            </div>
+            <div class="col-md-4" style="text-align: right;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8" style="text-align: right">
+                            <small style="color: whitesmoke">+7(980)-027-21-48</small><br>
+                            <small style="color: whitesmoke">+7(953)-553-99-22</small>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://vk.com/motoroilnn">
+                                <img src="{% static 'img/vk.png' %}" style="width: 35px; padding-top: 7px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
