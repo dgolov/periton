@@ -1,1 +1,8 @@
 /env/
+media
+db.sqlite3
+key.txt
+__pycache__
+*.pyc
+.idea
+passenger_wsgi.py
