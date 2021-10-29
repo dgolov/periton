@@ -1,0 +1,30 @@
+{% extends 'web/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+      <h1>{{ category.name }}</h1>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row cat-detail">
+            {% for product in products %}
+            {% if product.category == category %}
+                <div class="col-md-4">
+                    <a href="{{ product.slug }}" style="color: #1c00cf;">
+                    <img src="{{ product.image.url }}">
+                    <p style="padding: 15px 150px 0 0;">{{ product.name }}</p>
+                    </a>
+                </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}

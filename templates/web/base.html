@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{% block title %} {{ title }} {% endblock %}</title>
+    {% load static %}
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/full-width-pics.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}">ООО Перитон</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'catalog' %}">Каталог продукции
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'documents' %}">Документы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'contacts' %}">Контакты | Карточка организации</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="py-5 bg-image-full" style="background-image: url({% static 'img/shutterstock_1340501801.jpg' %});">
+    <div style="height: 150px;"></div>
+</header>
+{% block content %} {% endblock %}
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="m-0 text-center text-white"><span class="copyright">ООО Перитон</span></p>
+                <p class="m-0 text-center text-white" style="font-size: 12px;">с заботой о Вашем автомобиле!</p>
+            </div>
+            <div class="col-md-4" style="text-align: right;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8" style="text-align: right">
+                            <small style="color: whitesmoke">+7(980)-027-21-48</small><br>
+                            <small style="color: whitesmoke">+7(953)-553-99-22</small>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://vk.com/motoroilnn">
+                                <img src="{% static 'img/vk.png' %}" style="width: 35px; padding-top: 7px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
